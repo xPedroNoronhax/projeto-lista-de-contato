@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    
+    --main-: #E6F5FF;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    background-color: var(--main-);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 50%;
+    gap: 10px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+header h1{
+    color: #16a1d8;
+}
+
+header img{
+    height: 50px;
+    padding-right: 10px;
+    
+}
+
+form{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 10px;
+    width: 100%;
+    gap: 10px;
+}
+
+form input {
+    display: flex;
+    padding: 10px;
+    width: 40%;
+    font-size: 25px;
+}
+
+form button{
+    text-align: center;
+    font-size: 21px;
+    font-weight: 700;
+    color: #16a1d8;
+    padding: 8px;
+    background-color: var(--main-);
+    cursor: pointer;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+}
+
+table thead th{
+    border: none;
+    padding: 10px 0;
+}
+
+tbody td{
+    text-align: center;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid black;
+    
+}
+
+tfoot th{
+    padding: 10px 0;
+}
+
+.cont{
+    color: blue;
+}
